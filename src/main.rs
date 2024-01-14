@@ -1,12 +1,11 @@
 use console_menu::{Menu, MenuOption, MenuProps};
-use dirs;
-use home::home_dir;
+
+
 use serde::{Deserialize, Serialize};
 use std::{
     env,
-    fs::{self, File},
-    io::{Read, Write},
-    path::{Path, PathBuf},
+    fs::{File},
+    io::{Read},
     process::Command,
 };
 
