@@ -8,6 +8,10 @@ repository = "https://github.com/wychwitch/cli-menu-maker"
 keywords = ["cli", "productivity", "command-line", "script"]
 categories = ["command-line-utilities"]
 
+[[bin]]
+name = "climenu"
+path = "src/main.rs"
+
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
