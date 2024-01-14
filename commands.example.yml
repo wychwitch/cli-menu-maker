@@ -1,0 +1,12 @@
+title: "Example title"
+message: "A message!"
+fg_color: 133
+bg_color: 232
+msg_color: 236
+commands:
+  - name: Hello World
+    command: "echo hello world!"
+  - name: Hello World Again
+    command: "echo hello world!!!!"
+  - name: Open vim
+    command: "vim"
