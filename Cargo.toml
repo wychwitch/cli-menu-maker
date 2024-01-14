@@ -1,6 +1,6 @@
 [package]
 name = "cli-menu-maker"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT OR Apache-2.0"
 description = "A small program to run cli commands from a menu!"
@@ -9,7 +9,7 @@ keywords = ["cli", "productivity", "command-line", "script"]
 categories = ["command-line-utilities"]
 
 [[bin]]
-name = "climenu"
+name = "climenux"
 path = "src/main.rs"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
